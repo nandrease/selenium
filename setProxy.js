@@ -4,6 +4,7 @@ const firefox = require("selenium-webdriver/firefox");
 
 // https://free-proxy-list.net/
 const proxyServer = "36.65.66.148:8080";
+// https://whatismyipaddress.com/
 
 const driver = new Builder()
   .forBrowser("firefox")
